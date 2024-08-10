@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import com.codecraftshop.openshift.mysql.model.Student;
 import com.codecraftshop.openshift.mysql.repository.StudentRepository;
 
-@RestController
+@RestController //controller
 @RequestMapping("/students")
 public class StudentController {
 
