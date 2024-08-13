@@ -17,7 +17,7 @@ public class StudentController {
 	@Autowired
 	private StudentRepository studentRepository;
 
-	// Create a new student
+	// Create a new student details
 	@PostMapping
 	public Student createStudent(@RequestBody Student student) {
 		return studentRepository.save(student);
